@@ -3,7 +3,6 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 
-import { Link } from 'gatsby';
 import config from '../../config';
 import Footer from '../components/Footer';
 import SocialLinks from '../components/SocialLinks';
