@@ -2,6 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import Header from '../components/Header';
+import { Link } from 'gatsby';
 
 const IndexPage = () => (
   <Layout>
@@ -12,9 +13,9 @@ const IndexPage = () => (
           <h1 className="mx-auto my-0 text-uppercase">Page not found</h1>
           <h2 className="text-white-50 mx-auto mt-2 mb-5">Not a valid URL</h2>
 
-          <a href="/" className="btn btn-primary">
+          <Link to="/" className="btn btn-primary">
             Go Home
-          </a>
+          </Link>
         </div>
       </div>
     </header>
