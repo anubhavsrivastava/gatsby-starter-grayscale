@@ -40,8 +40,9 @@ Edit `config.js` to put up your details
 module.exports = {
   siteTitle: 'Gatsby Starter grayscale', // <title>
   ...
-  firstName: 'Anubhav',
-  lastName: 'Srivastava',
+  heading: 'Anubhav Srivastava',
+  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+
   // social
   socialLinks: [
     {
